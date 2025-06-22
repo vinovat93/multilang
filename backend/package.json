@@ -4,7 +4,10 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "lint": "eslint .",
+        "format": "dprint fmt",
+        "format:check": "dprint check"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",

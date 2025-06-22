@@ -10,6 +10,6 @@ class OriginalTexts extends Model
 
     protected $fillable = [
         'text',
-        'language_id'
+        'language_id',
     ];
 }

@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('text');
             $table->foreignId('language_id')
-                  ->constrained('languages') // Referă tabelul 'languages'
-                  ->cascadeOnDelete();
+                ->constrained('languages') // Referă tabelul 'languages'
+                ->cascadeOnDelete();
             $table->timestamps();
         });
     }

@@ -24,6 +24,7 @@ services:
         volumes:
             - dbdata:/var/lib/mysql
     web:
+        container_name: laravel_app_container
         image: multilang:latest
         mem_limit: '3012m'
         mem_reservation: '512M'
